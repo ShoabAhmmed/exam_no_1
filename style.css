@@ -31,7 +31,6 @@
 }
 .footer_menu ul li a{
 	text-decoration: none;
-	display: block;
 	color: #9E9C9D
 }
 .color_1 p{
@@ -40,7 +39,7 @@
 
 }
 .color_1 ul li{
-	padding-bottom: 18px
+	padding-bottom:10px;
 }
 .color_1 ul a{
 	color: #9E9C9D;
@@ -56,4 +55,21 @@
 	background-color: #615A57;
 
 
+}
+
+
+.arrow ul li::before{
+	content: '\203A';
+	height: 5px;
+	color: #B76D4D;
+	padding-right: 10px;
+	
+}
+
+.arrow p::before{
+	content: '\203A';
+	height: 5px;
+	color: #B76D4D;
+	padding-right: 10px;
+	
 }
